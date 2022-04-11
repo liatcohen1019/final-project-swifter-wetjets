@@ -3,6 +3,12 @@ import pygame
 
 def main():
     pygame.init()
+my_list=[]
+for i in range (10):
+  my_list.append(int(input()))
+print(my_list)
+
+
     #Create an instance on your controller object
     #Call your mainloop
     
