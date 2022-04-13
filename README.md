@@ -1,11 +1,11 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Covid detector
 ## CS 110 Final Project
-### << Semester, Year >>
+### spring, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit#)
 
-<< [repl](#) >>
+https://replit.com/join/jumymivwzd-liatcohen1019)
 
 << [link to demo presentation slides](#) >>
 
@@ -16,12 +16,14 @@
 
 ## Project Description *(Software Lead)*
 
-<< Give an overview of your project >>
-
+Our project takes a list of symptoms and depending on which symptoms are inputted by the user, it will flash red or green depending if the symptoms indicate you should get tested for covid and take further procausions. 
 ***    
 
 ## User Interface Design *(Front End Specialist)*
 
+The first screen in the program will be a list of symptoms
+The secdond screen will be flashing red or green depending on if thr results look positive or negative. 
+The last screen will be instructions on how to get further care depending on your results. 
 * << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
     * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
 * << You should also have a screenshot of each screen for your final GUI >>
@@ -58,17 +60,14 @@ The Project is broken down into the following file structure:
 
    * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead - << name >>
+### Software Lead - Ben Uline 
+worked on the code and decoding any bugs as well as making it more advanced.
 
-<< Worked as integration specialist by... >>
+### Front End Specialist - Nick Bell
+Did research on the medical part of the project in figuring out what symptoms we wanted to encorperate in the program and what the recommendations are at the end. 
 
-### Front End Specialist - << name >>
-
-<< Front-end lead conducted significant research on... >>
-
-### Back End Specialist - << name >>
-
-<< The back end specialist... >>
+### Back End Specialist - Liat Cohen 
+Made sure everything was organized and submitted on time. Was in charge of organizing group meeting as well as creating the idea for the program. 
 
 ## Testing *(Software Lead)*
 
