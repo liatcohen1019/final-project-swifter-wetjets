@@ -137,7 +137,7 @@ C:Actual Result
 13b. Location will change to Starbucks, COVID, game is lost
 13c. no results yet 
 
-14a. If track is selected, press h to go to the hinman
+14a. If track is selected, press e to go to the events center
 14b. Location will change to Events Center, NO COVID, game is won
 14c. no results yet 
 
