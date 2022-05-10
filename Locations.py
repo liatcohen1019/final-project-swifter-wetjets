@@ -1,10 +1,14 @@
+import pygame
+import Tkinter 
+pygame.init()
+
 class locations:
   def __init__(self, dorm, c4, dunkin, library, undergrounds, gym, track, naturepres, laketaco, lecturehall, academicA, jazzmans, starbucks, eventcenter, hinman):
     safe = 1
     covid = 0
     self.dorm = 1
     self.c4 = 1
-    self.dunkin = 0
+    self.dunkin = 1
     self.library = 1
     self.undergrounds = 1
     self.gym = 0
@@ -16,5 +20,5 @@ class locations:
     self.jazzmans = 1
     self.starbucks = 0
     self.eventcenter = 1
-    self.hinman = 1
-    
+    self.hinman = 0
+
