@@ -1,4 +1,4 @@
-:warning: Everything between << >> needs to be replaced (remove << >> after replacing)
+
 # CS110 Project Proposal
 # Covid detector
 ## CS 110 Final Project
@@ -16,24 +16,36 @@ https://replit.com/join/jumymivwzd-liatcohen1019)
 
 ## Project Description *(Software Lead)*
 
-Our project takes a list of symptoms and depending on which symptoms are inputted by the user, it will flash red or green depending if the symptoms indicate you should get tested for covid and take further procausions. 
+Our project takes you on a tour of the amazing Binghamton campus, while covid 19 is at its peak. while going through campus, you must decide which places to go and try and avoid contracting covid on your way. If you get covid, the game is over and you must start from the begining. 
 ***    
 
 ## User Interface Design *(Front End Specialist)*
-#####PICTURE OF OUR LOADING/START SCREEN#####
- - This is the start menu
-####FIRST CONCEPT MAP####
-- This is the first design concept of the map
-####SCREENS THROUGHOUT PROGRAM + EXPLANATION FOR EACH#####
-#####
-The first screen in the program will be a list of symptoms
-The second screen will be flashing red or green depending on if thr results look positive or negative. 
-The last screen will be instructions on how to get further care depending on your results. 
-* << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
-    * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
-* << You should also have a screenshot of each screen for your final GUI >>
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/start_screen.jpg
+* This is the start menu
 
-***        
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/web.png
+* This is the first design concept of the map. Showing the web of choices. 
+
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/game_screen.jpg
+* This is the screen of game in progress after succussfully reaching to next round.
+
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/no_covid.jpg
+* This is the screen of the game after selecting correct location without covid.
+
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/yes_covid.jpg
+* This is the screen of the game after selecting the incorrect location, thus receiving covid.
+
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/game_over.jpg
+* This is the screen displayed after playing game and receiving covid, stating that the game is over.
+
+https://replit.com/@Liatcohen1019/final-project-swifter-wetjets#assets/game_win.jpg
+* This is the screen displayed after playing game and not receiving covid, stating player won game.
+
+#####
+The first screen in the program will be blue with the choice of where you want to go when you leave your dorm. 
+As the game prgressses from here, it takes you along different blue slides with locations and either green or red slides with information whether you dodged covid or not. 
+Once you hit a red screen, that means that you have contracted covid and the game is over. 
+
 
 ## Program Design *(Backend Specialist)*
 

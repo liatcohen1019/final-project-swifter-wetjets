@@ -241,6 +241,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_h):
               self.state = "red"
+      pygame.time.wait(3000)
       self.screen.fill(self.red)
       self.showtext(50, 50, 'You got COVID!')
       self.pos_sprites.draw(self.screen)
@@ -261,6 +262,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_e):
               self.state = "green"
+      pygame.time.wait(3000)
       self.screen.fill(self.green)
       self.showtext(50, 50, 'You did not get COVID!')
       self.neg_sprites.draw(self.screen)
@@ -281,6 +283,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_s):
               self.state = "red"
+      pygame.time.wait(3000)
       self.screen.fill(self.red)
       self.showtext(50, 50, 'You got COVID!')
       self.pos_sprites.draw(self.screen)
@@ -301,6 +304,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_j):
               self.state = "green"
+      pygame.time.wait(3000)
       self.screen.fill(self.green)
       self.showtext(50, 50, 'You did not get COVID!')
       self.neg_sprites.draw(self.screen)
@@ -321,6 +325,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_n):
               self.state = "green"
+      pygame.time.wait(3000)
       self.screen.fill(self.green)
       self.showtext(50, 50, 'You did not get COVID!')
       self.neg_sprites.draw(self.screen)
@@ -341,6 +346,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_l):
               self.state = "red"
+      pygame.time.wait(3000)
       self.screen.fill(self.red)
       self.showtext(50, 50, 'You got COVID!')
       self.pos_sprites.draw(self.screen)
@@ -361,6 +367,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_o):
               self.state = "green"
+      pygame.time.wait(3000)
       self.screen.fill(self.green)
       self.showtext(50, 50, 'You did not get COVID!')
       self.neg_sprites.draw(self.screen)
@@ -381,6 +388,7 @@ class user:
         elif event.type == pygame.KEYDOWN:
             if(event.key == pygame.K_a):
               self.state = "red"
+      pygame.time.wait(3000)
       self.screen.fill(self.red)
       self.showtext(50, 50, 'You got COVID!')
       self.pos_sprites.draw(self.screen)
