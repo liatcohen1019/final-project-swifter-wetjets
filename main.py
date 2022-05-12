@@ -1,9 +1,11 @@
 import pygame
+from display import user
 #import your controller
 
 def main():
     pygame.init()
-
+    newgame = user()
+    newgame.mainLoop()
     #Create an instance on your controller object
     #Call your mainloop
     
